@@ -1,0 +1,102 @@
+.content {
+  flex: 4;
+  margin-left: 300px;
+}
+.Table {
+  width: 80%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 60px;
+}
+
+table {
+  border: 1px solid rgba(11, 11, 11, 0.279);
+  width: 80%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th {
+  border-bottom: 1px solid rgba(11, 11, 11, 0.279);
+  border-right: 1px solid rgba(11, 11, 11, 0.279);
+  color: black;
+  text-align: center;
+  padding: 0px;
+}
+
+td {
+  border-right: 1px solid rgba(11, 11, 11, 0.279);
+  text-align: center;
+  color: black;
+  padding: 0px 10px;
+}
+
+.Table p {
+  margin-top: 10px;
+
+  width: 80%;
+  line-height: 1.5;
+  color: #2e3842;
+}
+.Table h3 {
+  margin-top: 70px;
+  color: #2e3842;
+  text-align: left;
+}
+.Table h4 {
+  color: #2e3842;
+  margin-top: 70px;
+}
+
+.navlink:hover {
+  background: #353535;
+
+  border-left: 4px solid #632ce4;
+  cursor: pointer;
+  color: white;
+}
+.itm {
+  height: 40px;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.itm:hover {
+  background: #353535;
+  color: white;
+  transition: 0.1s ease-in-out;
+
+  cursor: pointer;
+  border-left: 4px solid #632ce4;
+}
+.labl:hoevr {
+  font-size: 30px;
+}
+.tool {
+  text-decoration: none;
+  color: blue;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.tool:hover {
+  text-decoration: underline;
+  transition: 0.1s ease-in-out;
+  transform: scale(20%);
+}
+.entityNav {
+  text-decoration: "none";
+  color: blue;
+  padding-left: 2px;
+}
+.entityNav:hover {
+  text-decoration: underline;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all;
+}

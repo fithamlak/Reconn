@@ -1,0 +1,13 @@
+.sidebar {
+  width: 300px;
+  flex: 1;
+  position: fixed;
+  top: 50px;
+  height: calc(100vh - 50px);
+  background-color: #f6f7f8;
+  flex-shrink: initial;
+}
+.sidebar:hover {
+  width: 350px;
+  color: white;
+}
